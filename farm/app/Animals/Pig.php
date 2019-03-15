@@ -1,55 +1,14 @@
 <?php 
 
-namespace farm\animals;
+namespace Farm\App\Animals;
 
-use farm\Animal;
+use farm\App\Animal;
 
 class Pig extends Animal
 {
     public function say()
     {
-        return 'wee wee';
+        echo 'Хрю-хрю!' . PHP_EOL;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-namespace eshop\App\Order;
-
-class Order
-{
-	public $basket;
-
-	public function __construct(\eshop\App\Basket\Basket $basket) 
-	{
-		$this->basket = $basket;
-	}
-
-	public function getBasket()
-	{
-		return $this->basket;
-	}
-
-	//Возвращает общую стоимость заказа
-	public function getPrice()
-	{		
-		return $this->basket->getprice();
-	}	
-}
-*/

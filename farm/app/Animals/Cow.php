@@ -1,31 +1,14 @@
 <?php
 
+namespace Farm\App\Animals;
 
+use farm\App\Animal;
 
-
-/*
-public $animals
-namespace eshop\App\Product;
-
-class Product 
+class Cow extends Animal
 {
-	public $name;
-	public $price;
-
-	public function __construct($name, $price)
-	{
-		$this->name  = $name;
-		$this->price = $price; 
-	}
-
-	public function getName() 
-	{
-		return $this->name;
-	}
-	
-	public function getPrice()
-	{
-		return $this->price;
-	}
+    public function say()
+    {
+        echo 'Му!' . PHP_EOL;
+    }
 }
-*/
+

@@ -1,16 +1,16 @@
 <?php
 
-namespace farm;
+namespace Farm\App;
 
 class Animal
 {
     public function say()
     {
-        return '';
+        echo '' . PHP_EOL;
     }
     public function walk()
     {
-        return 'walk';
+        echo 'топ-топ' . PHP_EOL;
     }
 }
 
